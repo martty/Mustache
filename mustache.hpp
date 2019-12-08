@@ -359,7 +359,7 @@ public:
             list_->push_back(var);
         }
     }
-    const basic_list<string_type>& list_value() const {
+    basic_list<string_type>& list_value() const {
         return *list_;
     }
     bool is_empty_list() const {
